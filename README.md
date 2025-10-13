@@ -52,8 +52,8 @@ O projeto foi estruturado para demonstrar uma arquitetura moderna de aplicaçõe
 ### 1️⃣ Clonar o repositório
 
 ```bash
-git clone https://github.com/seu-usuario/nome-do-repositorio.git
-cd nome-do-repositorio
+git clone https://github.com/GessicaNog/project_fullStack.git
+cd project_fullStack
 ```
 ### 2️⃣  Configurar e executar o Back-end
 ```bash
