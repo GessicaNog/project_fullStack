@@ -1,0 +1,6 @@
+
+
+/* Aplica uma margem (espaço) à direita de todos os botões que não são o último */
+.action-cell button:not(:last-child) {
+  margin-right: 8px; /* Ajuste o valor conforme a sua preferência */
+}

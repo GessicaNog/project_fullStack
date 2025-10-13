@@ -1,59 +1,81 @@
-# ProjectFullStack
+# 🧩 Projeto Full Stack — Node.js + PostgreSQL + Angular
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.2.0.
+Este repositório contém uma aplicação **Full Stack** composta por dois módulos principais:
 
-## Development server
+- **back-end/** → API desenvolvida em **Node.js** com **Express** e **PostgreSQL**  
+- **front-end/** → Interface web desenvolvida em **Angular**
 
-To start a local development server, run:
+O projeto foi estruturado para demonstrar uma arquitetura moderna de aplicações web, com separação clara entre o cliente (UI) e o servidor (API), seguindo boas práticas de engenharia de software.
+
+---
+
+## 🚀 Estrutura do Projeto
+
+📦 nome-do-projeto
+├── 📁 back-end/ # Projeto Node.js (API RESTful)
+│ ├── src/
+│ ├── package.json
+│ ├── .env.example
+│ └── README.md
+│
+└── 📁 front-end/ # Projeto Angular (Interface do Usuário)
+├── src/
+├── angular.json
+├── package.json
+└── README.md
+
+
+---
+
+## 🧠 Tecnologias Utilizadas
+
+### **Back-end**
+- [Node.js](https://nodejs.org/)
+- [Express.js](https://expressjs.com/)
+- [Supabase](https://supabase.com/)
+- [dotenv](https://www.npmjs.com/package/dotenv) para variáveis de ambiente
+
+### **Front-end**
+- [Angular](https://angular.io/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Angular CLI](https://angular.io/cli)
+
+---
+
+## ⚙️ Como Executar o Projeto
+
+### Pré-requisitos
+
+- [Node.js >= 18.x](https://nodejs.org/)
+- [Angular CLI](https://angular.io/cli) instalado globalmente
+
+### 1️⃣ Clonar o repositório
 
 ```bash
+git clone https://github.com/seu-usuario/nome-do-repositorio.git
+cd nome-do-repositorio
+```
+### 2️⃣  Configurar e executar o Back-end
+```bash
+cd back-end
+cp .env.example .env
+```
+## Edite o arquivo .env e configure suas variáveis, por exemplo:
+
+PORT=3000
+DATABASE_URL=localhost
+
+
+## Instale as dependências e inicie o servidor:
+```bash
+npm install
+npm run start
+```
+
+### 3️⃣ Configurar e executar o Front-end
+```bash
+cd ../front-end
+npm install
 ng serve
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
-
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
