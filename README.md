@@ -11,7 +11,7 @@ O projeto foi estruturado para demonstrar uma arquitetura moderna de aplicaçõe
 
 ## 🚀 Estrutura do Projeto
 
-📦 nome-do-projeto
+📦 project_fullStack
 ├── 📁 back-end/ # Projeto Node.js (API RESTful)
 │ ├── src/
 │ ├── package.json
